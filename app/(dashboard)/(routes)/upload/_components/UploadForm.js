@@ -5,7 +5,7 @@ import AlertMsg from "./AlertMsg";
 import FilePreview from "./FilePreview";
 import ProgressBar from "./ProgressBar";
 
-function UploadForm({ uploadBtnClick, progress }) {
+function UploadForm({ uploadBtnClick, progress, uploadComplete }) {
   const [file, setFile] = useState();
   const [errorMsg, setErrorMsg] = useState();
 
