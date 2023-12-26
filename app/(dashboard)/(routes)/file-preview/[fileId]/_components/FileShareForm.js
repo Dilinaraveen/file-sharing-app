@@ -1,6 +1,5 @@
 import { Copy } from 'lucide-react'
 import React, { useState } from 'react'
-import { useUser } from '@clerk/nextjs';
 import Toast from '../../../../../_components/Toast';
 
 function FileShareForm({ file,onPasswordSave }) {

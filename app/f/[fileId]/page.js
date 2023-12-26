@@ -2,7 +2,7 @@
 
 import { doc, getDoc, getFirestore } from 'firebase/firestore';
 import React, { useEffect, useState } from 'react'
-import { app } from '../../../firebaseConfig';
+import  app  from '../../../firebaseConfig';
 import FileItem from './_components/FileItem'
 import Link from 'next/link';
 import Image from 'next/image';
