@@ -8,15 +8,19 @@ function FileShareForm({ file,onPasswordSave }) {
     const [toast,setToast]=useState();
 
     const onCopyClick=()=>{
+        
         navigator.clipboard.writeText(file.shortUrl);
         setToast({
             status:'Copied',
             msg:'Url Copied!'
         })
+        console.log(file.shortUrl)
 
     }
     return file && (
         <div className='flex flex-col gap-2'>
+
+    
             <div>
             <label className='text-[14px] text-gray-500'>Short Url</label>
             <div className='flex gap-5 p-2 border rounded-md justify-between'>

@@ -76,6 +76,7 @@ function UploadForm({ uploadBtnClick, progress, uploadComplete }) {
           className="p-2 bg-primary text-white w-[30%] rounded-full mt-5 disabled:bg-gray-500"
           onClick={() => uploadBtnClick(file)}
         >
+          
           Upload
         </button>
       )}
