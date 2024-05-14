@@ -35,7 +35,7 @@ function SideNav({closeSideBar}) {
   return (
     <div className="shadow-sm border-r h-full ">
       <div className="p-10 border-b flex justify-between items-center">
-        <Image src="/logo.svg" width={100} height={100} alt="" />
+        <Image src="/logo.svg" width={70} height={70} alt="" />
         <ChevronLeft onClick={()=>closeSideBar()} className="text-primary md:hidden"/>
       </div>
       <div className="flex flex-col float-left w-full">

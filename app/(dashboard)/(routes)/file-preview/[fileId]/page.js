@@ -10,6 +10,8 @@ import FileShareForm from './_components/FileShareForm';
 function FilePreview({params}) {
     const db = getFirestore(app);
     const [file,setFile]=useState();
+    const [loading , setLoading] = useState(false);
+
     useEffect(()=>{
         console.log(params?.fileId)
         params?.fileId&&getFileInfo();
@@ -28,10 +30,12 @@ function FilePreview({params}) {
     }
 
     const onPasswordSave=async(password)=>{
+      setLoading(true);
         const docRef=doc(db,"uploadedFile",params?.fileId);
         await updateDoc(docRef,{
             password:password
         });
+        setLoading(false);
 
     }
   return (
@@ -41,7 +45,7 @@ function FilePreview({params}) {
       <div className='grid grid-cols-1 md:grid-cols-2 mt-5'>
         <FileInfo file={file} />
         <FileShareForm  file={file} 
-        onPasswordSave={(password)=>onPasswordSave(password)}/>
+        onPasswordSave={(password)=>onPasswordSave(password)} loading={loading} />
       </div>
   </div>
   )
