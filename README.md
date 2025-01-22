@@ -1,36 +1,35 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+![Logo](https://res.cloudinary.com/srilankan-cloudname/image/upload/v1737551154/DROP_LINK_hpuqgy.png)
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+# DROP-LINK
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+**Drop-Link** is a simple web application that allows users to upload, store, and share files with others. It provides an easy-to-use interface for securely managing digital files, with features like personalized cloud storage and the ability to share files through unique links. Drop-Link is designed for effortless file management, making it a reliable solution for both personal and professional use.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+![App Screenshot](https://res.cloudinary.com/srilankan-cloudname/image/upload/v1737551693/DROP_LINK_1_q7r0jd.png)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Features
 
-## Deploy on Vercel
+- File Upload & Storage: Easily upload files to your personal cloud storage, accessible anytime.
+- File Sharing: Share files with others through unique links, ensuring quick and secure transfers.
+- Secure Access: Safeguard your files with robust security measures.
+- User-Friendly Interface: Navigate and manage files with an intuitive design.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Screenshots
+
+
+![App Screenshot](https://res.cloudinary.com/srilankan-cloudname/image/upload/v1737551892/Screenshot_2025-01-22_145855_vbyual.png)
+
+
+![App Screenshot](https://res.cloudinary.com/srilankan-cloudname/image/upload/v1737551893/Screenshot_2025-01-22_145939_svugqj.png)
+
+![App Screenshot](https://res.cloudinary.com/srilankan-cloudname/image/upload/v1737551892/Screenshot_2025-01-22_150001_odyy5v.png)
+
+![App Screenshot](https://res.cloudinary.com/srilankan-cloudname/image/upload/v1737551891/Screenshot_2025-01-22_150115_pb9wwh.png)
+
+![App Screenshot](https://res.cloudinary.com/srilankan-cloudname/image/upload/v1737551891/Screenshot_2025-01-22_150046_zbkeiz.png)
